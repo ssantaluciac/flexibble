@@ -1,5 +1,5 @@
-import { footerLinks } from '@/constants'
-import Image from 'next/image'
+import { footerLinks } from '@/constants';
+import Image from 'next/image';
 import Link from 'next/link';
 
 type ColumnProps = {
@@ -28,7 +28,7 @@ const Footer = () => {
               alt="Flexibble logo"
             />
             <p className="text-start text-sm font-normal mt-5 max-w-xs">
-              Flexxible is the world's leading community for creatives to share, grow, and get hired.
+              Flexible is the world's leading community for creatives to share, grow, and get hired.
             </p>
           </div>
           <div className="flex flex-wrap gap-12">
